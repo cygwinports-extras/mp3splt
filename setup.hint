@@ -1,0 +1,9 @@
+category: Audio
+requires: libintl8 libmp3splt0
+sdesc: "MP3/Ogg file splitter"
+ldesc: "Mp3splt-project is a utility to split mp3 and ogg files 
+selecting a begin and an end time position, without decoding. It's very 
+useful to split large mp3/ogg to make smaller files or to split entire 
+albums to obtain original tracks. If you want to split an album, you can 
+select split points and filenames manually or you can get them 
+automatically from CDDB (internet or a local file) or from .cue files."
