@@ -1,5 +1,5 @@
 NAME="mp3splt"
-VERSION=2.5
+VERSION=2.5.1
 RELEASE=1
 CATEGORY="Audio"
 SUMMARY="MP3/Ogg file splitter"
