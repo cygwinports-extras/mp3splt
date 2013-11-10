@@ -1,0 +1,11 @@
+--- origsrc/mp3splt-2.6/doc/Makefile.am	2013-04-10 16:39:16.000000000 -0500
++++ src/mp3splt-2.6/doc/Makefile.am	2013-11-09 20:55:08.806641400 -0600
+@@ -1,7 +1,7 @@
+ EXTRA_DIST = mp3splt.1 manual.html
+ man_MANS = mp3splt.1
+ 
+-install-exec-hook:
++install-data-hook:
+ if DO_OGG_SYMLINK
+ 	-cd $(DESTDIR)/$(mandir)/man1 && $(LN_S) mp3splt.1 oggsplt.1
+ endif

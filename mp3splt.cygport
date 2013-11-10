@@ -1,5 +1,5 @@
 NAME="mp3splt"
-VERSION=2.5.1
+VERSION=2.6
 RELEASE=1
 CATEGORY="Audio"
 SUMMARY="MP3/Ogg file splitter"
@@ -10,6 +10,7 @@ original tracks. If you want to split an album, you can select split points
 and filenames manually or you can get them automatically from CDDB or from
 .cue files."
 HOMEPAGE="http://mp3splt.sourceforge.net/"
-SRC_URI="mirror://sourceforge/mp3splt/${P}.tar.gz"
+SRC_URI="mirror://sourceforge/mp3splt/${NAME}-${VERSION}.tar.gz"
+PATCH_URI="2.6-parallel-make.patch"
 
-CYGCONF_ARGS="--enable-oggsplt_symlink"
+CYGCONF_ARGS="--enable-oggsplt_symlink --enable-flacsplt_symlink"
